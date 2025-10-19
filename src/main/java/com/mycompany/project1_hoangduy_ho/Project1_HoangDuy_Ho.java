@@ -11,6 +11,7 @@ package com.mycompany.project1_hoangduy_ho;
 public class Project1_HoangDuy_Ho {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Game game = new Game();
+        game.start();
     }
 }
